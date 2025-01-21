@@ -9,6 +9,6 @@
 		"upload-keys": "ts-node ./scripts/upload-source-keys.ts",
 		"download-translations": "ts-node ./scripts/download-translations.ts",
 		"create-new-glossary-term": "ts-node ./scripts/create-new-glossary-term.ts",
-		"link-duplicates": "ts-node ./scripts/link-duplicates.ts",
+		"link-duplicates": "ts-node ./scripts/link-duplicates.ts"
 	}
 }
