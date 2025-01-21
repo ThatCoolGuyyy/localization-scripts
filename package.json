@@ -1,0 +1,17 @@
+{
+	"dependencies": {
+		"@localazy/api-client": "^2.1.6",
+		"axios": "^1.7.9",
+		"dotenv": "^16.3.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.3"
+	},
+	"scripts": {
+		"build": "ts-node ./scripts/upload-source-keys.ts",
+		"upload-keys": "ts-node ./scripts/upload-source-keys.ts",
+		"download-translations": "ts-node ./scripts/download-translations.ts",
+		"create-new-glossary-term": "ts-node ./scripts/create-new-glossary-term.ts",
+		"link-duplicates": "ts-node ./scripts/link-duplicates.ts",
+		"filter-string": "ts-node ./scripts/filter-string.ts"
+	}
+}
